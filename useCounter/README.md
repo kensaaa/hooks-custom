@@ -9,12 +9,12 @@ reset     :  funcion, establece el counter al valor inicial
 
 1. Estableciendo un valor inicial 
 ```javascript
-// el counter toma el valor de 12
-const { counter, increment, decrement, reset } = useCounter(12)
+// el counter toma el valor de 100
+const { counter, increment, decrement, reset } = useCounter(100)
 ```
 
 2. Por defecto
 ```javascript
  // el counter toma el valor de 1 
-const { counter, increment, decrement, reset } = useCounter(12)
+const { counter, increment, decrement, reset } = useCounter()
 ```
